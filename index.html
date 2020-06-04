@@ -719,13 +719,13 @@ eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
 </script>
 <script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
 <script id="rendered-js">
-document.querySelector(".main p").style.display = "none";
+document.querySelector(".main").style.display = "none";
 document.querySelector(".main").classList.add("spinner-1");
 
 // Mimic Server Request
 setTimeout(() => {
   document.querySelector(".main").classList.remove("spinner-1");
-  document.querySelector(".main p").style.display = "block";
+  document.querySelector(".main").style.display = "block";
 }, 4000);
 //# sourceURL=pen.js
     </script>
