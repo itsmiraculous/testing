@@ -36,7 +36,7 @@
   <script>
       $(document).ready(function(){
   $("button").click(function(){
-    $.getJSON("users.json", function(result){
+    $.getJSON("users.js", function(result){
       $.each(result, function(i, field){
         $("div").append(field + " ");
       });
